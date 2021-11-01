@@ -50,8 +50,6 @@ Sub AllStocksAnalysisRefactored()
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
     For j = 0 To 11
         tickerVolumes(j) = 0
-        tickerStartingPrices(j) = 0
-        tickerEndingPrices(j) = 0
     Next j
     ''2b) Loop over all the rows in the spreadsheet.
         For i = 2 To RowCount
