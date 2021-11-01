@@ -134,6 +134,6 @@ Based on our analysis, we can clearly see that Steve's stock profile for two yea
 Refactoring our code can create two major advantages. The first is that we can increase the efficiency of our analysis by reducing the amount of clutter in our code. The second advantage is that in a professional setting when there are multiple individuals working on a project, we can reduce confusion and errors by using consistent variables throughout our code. By refactoring we reduce the amount of new variables introduced in our code and thus standardize our most important variables and functions. Should we need to use that function/code over and over again, we can just call it without typing out new code to clutter our project. 
 
 ## Refactored Project
-After refactoring our code, we can clearly see the advantages via the runtime of our project. 
-![2017 Runtime Refactored]
-![2018 Runtime Refactored]
+After refactoring our code, we can clearly see the advantages via the runtime of our project. In our original script our runtimes for the year 2017 and 2018 were 0.65 and 0.64 seconds respectively. This runtime we reduced to around 0.1 seconds for both years in our new refactored code. While this difference may seem minute, the difference can become apparent when we are running thousands of tickers in our data. 
+![2017 Runtime Refactored](https://github.com/jeremysz0419/stock-analysis/blob/main/Resources/2017%20Run%20Time.PNG)
+![2018 Runtime Refactored](https://github.com/jeremysz0419/stock-analysis/blob/main/Resources/2018%20Run%20Time.PNG)
